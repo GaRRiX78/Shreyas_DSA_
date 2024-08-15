@@ -1,0 +1,12 @@
+Create table Software(pname varchar(10),Title varchar(10),Dev_In varchar(10),Swcost float ,Dcost int, No_Solid int, Sellingprice int);
+Insert into Software values('Anand','Parachutes','Basic',399.95,6000,43,6399.95);
+Insert into Software Values('Anand','Videopack','Pascal',7500,16000,9,23500);
+Insert into Software values('Juliana','Inventctrl','COBOL',3000,3500,0,6500);
+Insert into Software values('Mary','Finance','Oracle',18000,8500,4,26500);
+Insert into Software values('Mary','Codegen','C',4500,20000,23,24500);
+Insert into Software values('Rekha','PCutil','C',725,5000,51,5725);
+insert into Software values('Rekha','TSRhelp','Assembly',2500,6000,6,7500);
+Insert into Software values('Reshma','Hotelmgt','Pascal',1100,75000,2,76100);
+Insert into Software values('Reshma','Quiz','Basic',3200,2100,15,5300);
+Insert into Software values('Anand','Syss/w','C',400,24000,10,24400);
+select*from software;
